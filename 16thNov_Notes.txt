@@ -1,0 +1,93 @@
+Selenium Grid
+Groups, parallel with TestNG
+Extent Report
+
+=========Agenda===========
+
+POM - Page Object Model // Page Factory
+
+Maven
+
+Ant
+
+==========================Limitations with current script approach in selenium===============
+
+1. Not able to put script with Organize manner
+2. To many locators which we need to add into scripts and hard to remember
+3. We do not have any reusability
+
+Total 50 java pages or classes / methods
+
+500 locators 
+
+UI & Feature change request
+
+100 locators - We need to locators manually, after we need to apply chanages in scrpts (one by one)
+
+======================Page Factory============================
+
+@FindBy(locatorname = "value")
+WebElement element1;
+
+@FindBy(xpath = "//input[@value="firstName"])
+WebElement firstName;
+
+======================================================
+
+
+
+Web Applications : 
+
+No. of pages : Many forms, text fields, dropdowns, UI fields : 10 Pages
+
+1. Login Page : 
+
+Username, password, forgot password, login button : 5 Locators on your page
+
+2. Register Page : 6 text fields, 1 radio button, 1 checkbox, 1 button, 13 links : 22 locators on register page
+
+Total we need to handle 30 locators for above pages 
+
+Update on 15 locators ???? we need to revisit it
+
+We have used in 15 test methods and we have used above locators 
+
+
+mvn compile
+mvn test
+mvn package
+mvn clean
+mvn deploy
+mvn install
+
+surefire
+
+
+
+https://github.com/malayparikh/Phase_2_POMFramework.git
+
+
+D:\Java_Lectures\SL_SeleniumDemo_Workspace\NinjaDemo-POMFramework
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
